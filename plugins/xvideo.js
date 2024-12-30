@@ -14,9 +14,7 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
     try {
 
 
-const workGrp = config.XVDL_JID
-let code = await conn.groupInviteCode('120363370870982845@g.us')
-if(!workGrp.includes(from)) return reply(`*_Can't use xvsearch cmd in this group.If you want to search xvideos, join this group :_* https://chat.whatsapp.com/${code}`)
+
 
 let dt = `*_INFINITY WA BOT XVIDEO SEARCH 🔎_*\n\n`
 let cap = `\n\n> ɪɴꜰɪɴɪᴛʏ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴀʀᴜ`
@@ -118,9 +116,7 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
     try {
 
 
-const workGrp = config.XVDL_JID
-let code = await conn.groupInviteCode('120363370870982845@g.us')
-if(!workGrp.includes(from)) return reply(`*_Can't use xvideo cmd in this group.If you want to download xvideos, join this group :_* https://chat.whatsapp.com/${code}`)
+
 
 if(q.startsWith("https://www.xvideos.com/")) {
 
@@ -256,9 +252,7 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
     try {
 
 
-const workGrp = config.XVDL_JID
-let code = await conn.groupInviteCode('120363370870982845@g.us')
-if(!workGrp.includes(from)) return reply(`*_Can't use phub cmd in this group.If you want to download pornhub.com videos, join this group :_* https://chat.whatsapp.com/${code}`)
+
 
 if(!q && !q.startsWith('https://www.pornhub.com/')) return reply(`*_Please give me a pornhub.com url._*`)
 
